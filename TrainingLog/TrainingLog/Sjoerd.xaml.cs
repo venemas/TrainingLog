@@ -38,6 +38,6 @@ namespace TrainingLog
             MessageBox.Show("Sander is de man!");
         }
 
-        
+
     }
 }
