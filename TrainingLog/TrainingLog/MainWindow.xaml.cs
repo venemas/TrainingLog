@@ -22,6 +22,11 @@ namespace TrainingLog
         {
             this.DragMove();
         }
-
+        
+        private void windowSjoerd_Click(object sender, RoutedEventArgs e)
+        {
+            Sjoerd wnd = new Sjoerd();
+            wnd.Show();
+        }
     }
 }
