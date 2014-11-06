@@ -13,7 +13,7 @@
             <Border x:Name="Header" MouseLeftButtonDown="Header_MouseLeftButtonDown" Background="{Binding ElementName=Main, Path=Background}"/>
             <!--Menu-->
             <StackPanel x:Name="Menu" Grid.Row="1" Orientation="Vertical" Margin="5">
-                <Button x:Name="windowSjoerd" Content="Sjoerd" Background="Cyan" Height="40" Margin="5"/>
+                <Button x:Name="windowSjoerd" Content="Sjoerd" Background="Cyan" Height="40" Margin="5" Click="windowSjoerd_Click"/>
                 <Button x:Name="windowSander" Content="Sander" Background="Cyan" Height="40" Margin="5"/>
             </StackPanel>
         </Grid>
