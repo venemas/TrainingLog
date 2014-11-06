@@ -1,9 +1,21 @@
-﻿<Window x:Class="TrainingLog.MainWindow"
+<Window x:Class="TrainingLog.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Border Margin="10" Background="Purple"/>
-        <Button Height="40" Width="100" Content="Test" Click="Button_Click"/>
-    </Grid>
+        Title="MainWindow" Height="350" Width="250"
+        AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+    <Border x:Name="Main" Effect="{StaticResource WindowShadow}" Margin="10" Background="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--Header-->
+            <Border x:Name="Header" MouseLeftButtonDown="Header_MouseLeftButtonDown" Background="{Binding ElementName=Main, Path=Background}"/>
+            <!--Menu-->
+            <StackPanel x:Name="Menu" Grid.Row="1" Orientation="Vertical" Margin="5">
+                <Button x:Name="windowSjoerd" Content="Sjoerd" Background="Cyan" Height="40" Margin="5"/>
+                <Button x:Name="windowSander" Content="Sander" Background="Cyan" Height="40" Margin="5"/>
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>
