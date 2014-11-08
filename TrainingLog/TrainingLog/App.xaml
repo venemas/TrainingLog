@@ -22,6 +22,13 @@
         <SolidColorBrush x:Key="NeonPurple" Color="#FFAA00FF" />
         <SolidColorBrush x:Key="NeonBlue" Color="#FF00AAFF" />
         
+        <!--Holo Theme-->
+        <SolidColorBrush x:Key="Cyan" Color="#FF00EFFF"/>
+        <LinearGradientBrush x:Key="Background1" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#CC00565F" Offset="0.0"/>
+            <GradientStop Color="#FC00ABBB" Offset="1.0"/>
+        </LinearGradientBrush>
+        
         <!--Effects-->
         <DropShadowEffect x:Key="WindowShadow" Color="Black" Opacity="0.8" ShadowDepth="5" Direction="315" BlurRadius="10"/>
         

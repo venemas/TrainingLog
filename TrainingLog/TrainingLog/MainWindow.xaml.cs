@@ -33,5 +33,11 @@ namespace TrainingLog
         {
             this.Close();
         }
+
+        private void windowSander_Click(object sender, RoutedEventArgs e)
+        {
+            Sander wnd = new Sander();
+            wnd.Show();
+        }
     }
 }
