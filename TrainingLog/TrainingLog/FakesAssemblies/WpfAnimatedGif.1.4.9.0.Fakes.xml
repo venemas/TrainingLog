@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WpfAnimatedGif.1.4.9.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:WpfAnimatedGif.Fakes.ShimImageAnimationController">
+            <summary>Shim type of WpfAnimatedGif.ImageAnimationController</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageAnimationController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageAnimationController.#ctor(WpfAnimatedGif.ImageAnimationController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageAnimationController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageAnimationController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageAnimationController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AnimationCompletedObjectEventArgs">
+            <summary>Sets the shim of ImageAnimationController.AnimationCompleted(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.ConstructorImageObjectAnimationUsingKeyFramesBoolean">
+            <summary>Sets the shim of ImageAnimationController.ImageAnimationController(Image image, ObjectAnimationUsingKeyFrames animation, Boolean autoStart)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.CurrentFrameChangedAddEventHandler">
+            <summary>Sets the shim of ImageAnimationController.add_CurrentFrameChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.CurrentFrameChangedRemoveEventHandler">
+            <summary>Sets the shim of ImageAnimationController.remove_CurrentFrameChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.CurrentFrameGet">
+            <summary>Sets the shim of ImageAnimationController.get_CurrentFrame()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.Dispose">
+            <summary>Sets the shim of ImageAnimationController.Dispose()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.DisposeBoolean">
+            <summary>Sets the shim of ImageAnimationController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.FrameCountGet">
+            <summary>Sets the shim of ImageAnimationController.get_FrameCount()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.GotoFrameInt32">
+            <summary>Sets the shim of ImageAnimationController.GotoFrame(Int32 index)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.ImageSourceChangedObjectEventArgs">
+            <summary>Sets the shim of ImageAnimationController.ImageSourceChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.IsCompleteGet">
+            <summary>Sets the shim of ImageAnimationController.get_IsComplete()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.IsPausedGet">
+            <summary>Sets the shim of ImageAnimationController.get_IsPaused()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.OnCurrentFrameChanged">
+            <summary>Sets the shim of ImageAnimationController.OnCurrentFrameChanged()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.Pause">
+            <summary>Sets the shim of ImageAnimationController.Pause()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.Play">
+            <summary>Sets the shim of ImageAnimationController.Play()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.StaticConstructor">
+            <summary>Sets the shim of ImageAnimationController.ImageAnimationController()</summary>
+        </member>
+        <member name="T:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.AnimationCompletedObjectEventArgs">
+            <summary>Sets the shim of ImageAnimationController.AnimationCompleted(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.CurrentFrameChangedAddEventHandler">
+            <summary>Sets the shim of ImageAnimationController.add_CurrentFrameChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.CurrentFrameChangedRemoveEventHandler">
+            <summary>Sets the shim of ImageAnimationController.remove_CurrentFrameChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.CurrentFrameGet">
+            <summary>Sets the shim of ImageAnimationController.get_CurrentFrame()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.Dispose">
+            <summary>Sets the shim of ImageAnimationController.Dispose()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of ImageAnimationController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.FrameCountGet">
+            <summary>Sets the shim of ImageAnimationController.get_FrameCount()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.GotoFrameInt32">
+            <summary>Sets the shim of ImageAnimationController.GotoFrame(Int32 index)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.ImageSourceChangedObjectEventArgs">
+            <summary>Sets the shim of ImageAnimationController.ImageSourceChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.IsCompleteGet">
+            <summary>Sets the shim of ImageAnimationController.get_IsComplete()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.IsPausedGet">
+            <summary>Sets the shim of ImageAnimationController.get_IsPaused()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.OnCurrentFrameChanged">
+            <summary>Sets the shim of ImageAnimationController.OnCurrentFrameChanged()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.Pause">
+            <summary>Sets the shim of ImageAnimationController.Pause()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageAnimationController.AllInstances.Play">
+            <summary>Sets the shim of ImageAnimationController.Play()</summary>
+        </member>
+        <member name="T:WpfAnimatedGif.Fakes.ShimImageBehavior">
+            <summary>Shim type of WpfAnimatedGif.ImageBehavior</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.DoWhenLoadedOf1M0ActionOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{``0,System.Action{``0}})">
+            <summary>Sets the shim of ImageBehavior.DoWhenLoaded(!!0 element, Action`1&lt;!!0&gt; action)</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.GetQueryOrDefaultOf1BitmapMetadataStringM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Windows.Media.Imaging.BitmapMetadata,System.String,``0,``0})">
+            <summary>Sets the shim of ImageBehavior.GetQueryOrDefault(BitmapMetadata metadata, String query, !!0 defaultValue)</summary>
+        </member>
+        <member name="M:WpfAnimatedGif.Fakes.ShimImageBehavior.GetQueryOrNullOf1BitmapMetadataString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Windows.Media.Imaging.BitmapMetadata,System.String,``0})">
+            <summary>Sets the shim of ImageBehavior.GetQueryOrNull(BitmapMetadata metadata, String query)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.AddAnimationCompletedHandlerImageRoutedEventHandler">
+            <summary>Sets the shim of ImageBehavior.AddAnimationCompletedHandler(Image d, RoutedEventHandler handler)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.AddAnimationLoadedHandlerImageRoutedEventHandler">
+            <summary>Sets the shim of ImageBehavior.AddAnimationLoadedHandler(Image image, RoutedEventHandler handler)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.AnimateInDesignModeChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of ImageBehavior.AnimateInDesignModeChanged(DependencyObject o, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.AnimatedSourceChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of ImageBehavior.AnimatedSourceChanged(DependencyObject o, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.CanReadNativeMetadataBitmapDecoder">
+            <summary>Sets the shim of ImageBehavior.CanReadNativeMetadata(BitmapDecoder decoder)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetAnimateInDesignModeDependencyObject">
+            <summary>Sets the shim of ImageBehavior.GetAnimateInDesignMode(DependencyObject obj)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetAnimatedSourceImage">
+            <summary>Sets the shim of ImageBehavior.GetAnimatedSource(Image obj)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetAnimationControllerImage">
+            <summary>Sets the shim of ImageBehavior.GetAnimationController(Image imageControl)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetAnimationImageBitmapSource">
+            <summary>Sets the shim of ImageBehavior.GetAnimation(Image imageControl, BitmapSource source)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetApplicationExtensionBitmapDecoderString">
+            <summary>Sets the shim of ImageBehavior.GetApplicationExtension(BitmapDecoder decoder, String application)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetAutoStartImage">
+            <summary>Sets the shim of ImageBehavior.GetAutoStart(Image obj)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetIsAnimationLoadedImage">
+            <summary>Sets the shim of ImageBehavior.GetIsAnimationLoaded(Image image)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetRepeatBehaviorImage">
+            <summary>Sets the shim of ImageBehavior.GetRepeatBehavior(Image obj)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.GetRepeatCountBitmapDecoder">
+            <summary>Sets the shim of ImageBehavior.GetRepeatCount(BitmapDecoder decoder)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.ImageControlUnloadedObjectRoutedEventArgs">
+            <summary>Sets the shim of ImageBehavior.ImageControlUnloaded(Object sender, RoutedEventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.InitAnimationOrImageImage">
+            <summary>Sets the shim of ImageBehavior.InitAnimationOrImage(Image imageControl)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.IsLoadingDeferredBitmapSource">
+            <summary>Sets the shim of ImageBehavior.IsLoadingDeferred(BitmapSource source)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.RemoveAnimationCompletedHandlerImageRoutedEventHandler">
+            <summary>Sets the shim of ImageBehavior.RemoveAnimationCompletedHandler(Image d, RoutedEventHandler handler)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.RemoveAnimationLoadedHandlerImageRoutedEventHandler">
+            <summary>Sets the shim of ImageBehavior.RemoveAnimationLoadedHandler(Image image, RoutedEventHandler handler)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.RepeatBehaviorChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of ImageBehavior.RepeatBehaviorChanged(DependencyObject o, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetAnimateInDesignModeDependencyObjectBoolean">
+            <summary>Sets the shim of ImageBehavior.SetAnimateInDesignMode(DependencyObject obj, Boolean value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetAnimatedSourceImageImageSource">
+            <summary>Sets the shim of ImageBehavior.SetAnimatedSource(Image obj, ImageSource value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetAnimationControllerDependencyObjectImageAnimationController">
+            <summary>Sets the shim of ImageBehavior.SetAnimationController(DependencyObject obj, ImageAnimationController value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetAutoStartImageBoolean">
+            <summary>Sets the shim of ImageBehavior.SetAutoStart(Image obj, Boolean value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetIsAnimationLoadedImageBoolean">
+            <summary>Sets the shim of ImageBehavior.SetIsAnimationLoaded(Image image, Boolean value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.SetRepeatBehaviorImageRepeatBehavior">
+            <summary>Sets the shim of ImageBehavior.SetRepeatBehavior(Image obj, RepeatBehavior value)</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.StaticConstructor">
+            <summary>Sets the shim of ImageBehavior.ImageBehavior()</summary>
+        </member>
+        <member name="P:WpfAnimatedGif.Fakes.ShimImageBehavior.TryTwiceAction">
+            <summary>Sets the shim of ImageBehavior.TryTwice(Action action)</summary>
+        </member>
+    </members>
+</doc>
