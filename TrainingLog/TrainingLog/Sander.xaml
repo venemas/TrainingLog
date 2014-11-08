@@ -1,0 +1,27 @@
+﻿<Window x:Class="TrainingLog.Sander"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Title="Sander" Height="500" Width="300"
+        AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+    <Border x:Name="Main" BorderBrush="{StaticResource Cyan}" BorderThickness="1"
+                Background="{StaticResource Background1}" MouseLeftButtonDown="Main_MouseLeftButtonDown">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock x:Name="Level" Foreground="#FFFFCB5A" Text="L1" FontFamily="Coda" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock x:Name="Item" Foreground="White" Text="Resonator" FontFamily="Coda" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            </StackPanel>
+            <TextBlock x:Name="Amount" Foreground="White" Text="[27]" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="Coda" FontSize="24" Margin="5"/>
+            <Border Background="Black" Grid.Row="1" Margin="10,5">
+                <Image gif:ImageBehavior.AnimatedSource="Images\Item_ResonatorL1.gif"/>
+            </Border>
+            <Button x:Name="btnClose" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,2" Content="Close" Click="btnClose_Click"/>
+        
+        </Grid>
+    </Border>
+</Window>
