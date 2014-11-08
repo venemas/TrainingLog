@@ -3,6 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <DropShadowEffect x:Key="WindowShadow" Color="Black" Opacity="0.8"/>
+        <!--Color Palettes-->
+        <SolidColorBrush x:Key="FlatLightBlue" Color="#FF2C82C9" />
+        <SolidColorBrush x:Key="FlatLightGreen" Color="#FF2CC990" />
+        <SolidColorBrush x:Key="FlatYellow" Color="#FFEEE657" />
+        <SolidColorBrush x:Key="FlatLightOrange" Color="#FFFCB941" />
+        <SolidColorBrush x:Key="FlatLightRed" Color="#FFFC6042" />
+        <SolidColorBrush x:Key="FlatRed" Color="#FFE84B3C" />
+        <SolidColorBrush x:Key="FlatOrange" Color="#FFF39C15" />
+        <SolidColorBrush x:Key="FlatGreen" Color="#FF34B297" />
+        <SolidColorBrush x:Key="FlatBlue" Color="#FF2980BA" />
+        <SolidColorBrush x:Key="FlatDarkBlue" Color="#FF34495D" />
+        <SolidColorBrush x:Key="FlatNavy" Color="#FF001B2E" />
+        <!--Neon Colors-->
+        <SolidColorBrush x:Key="NeonGreen" Color="#FFAAFF00" />
+        <SolidColorBrush x:Key="NeonOrange" Color="#FFFFAA00" />
+        <SolidColorBrush x:Key="NeonPink" Color="#FFFF00AA" />
+        <SolidColorBrush x:Key="NeonPurple" Color="#FFAA00FF" />
+        <SolidColorBrush x:Key="NeonBlue" Color="#FF00AAFF" />
+        
+        <!--Effects-->
+        <DropShadowEffect x:Key="WindowShadow" Color="Black" Opacity="0.8" ShadowDepth="5" Direction="315" BlurRadius="10"/>
+        
+        <!--Templates-->
+        <Style x:Key="MainMenuButton" TargetType="{x:Type Button}">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5,2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}" >
+                        <Border x:Name="Border" BorderThickness="0"
+                                TextBlock.Foreground="White"
+                                TextBlock.FontWeight="Bold"
+                                TextBlock.FontSize="18"
+                            Background="{StaticResource FlatRed}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

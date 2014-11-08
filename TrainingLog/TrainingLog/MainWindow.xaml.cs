@@ -28,5 +28,10 @@ namespace TrainingLog
             Sjoerd wnd = new Sjoerd();
             wnd.Show();
         }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
