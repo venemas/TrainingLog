@@ -44,7 +44,7 @@
                                 TextBlock.Foreground="White"
                                 TextBlock.FontWeight="Bold"
                                 TextBlock.FontSize="18"
-                            Background="{StaticResource FlatRed}">
+                                Background="Red">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>

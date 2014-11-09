@@ -35,12 +35,17 @@ namespace TrainingLog
 
         private void btn2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Sander is de man!");
+            this.Close();
         }
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
 
