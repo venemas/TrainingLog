@@ -33,6 +33,7 @@
         <DropShadowEffect x:Key="WindowShadow" Color="Black" Opacity="0.8" ShadowDepth="5" Direction="315" BlurRadius="10"/>
         
         <!--Templates-->
+            <!--MainMenuButton-->
         <Style x:Key="MainMenuButton" TargetType="{x:Type Button}">
             <Setter Property="Height" Value="40"/>
             <Setter Property="Margin" Value="5,2"/>
@@ -46,6 +47,21 @@
                             Background="{StaticResource FlatRed}">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+            <!--CloseButton-->
+               <Style x:Key="CloseButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="Border" Background="Red"/>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" Value="{StaticResource FlatRed}" TargetName="Border"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>

@@ -17,7 +17,9 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <!--Row 0-->
-            <Border Grid.Row="0" x:Name="Header" Background="Beige" MouseLeftButtonDown="Header_MouseLeftButtonDown"/>
+            <Border Grid.Row="0" x:Name="Header" Background="Beige" MouseLeftButtonDown="Header_MouseLeftButtonDown">
+                <Button x:Name="btnClose" Style="{StaticResource CloseButton}" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" Height="10" Width="20" Margin="5,0" Click="btnClose_Click"/>
+            </Border>
             <!--Row 1-->
             <Button Grid.Row="1" Height="40" Width="100" Content="Oh yeah!" Click="btn1_Click" Name="btn1"/>
             <!--Row 2-->
