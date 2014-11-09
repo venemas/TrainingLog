@@ -6,8 +6,8 @@
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo Description="TrainingLog"/>
     </Window.TaskbarItemInfo>
-    <Border x:Name="Main" Effect="{StaticResource WindowShadow}" Margin="10" Background="Black">
-        <Grid Background= "Black">
+    <Border x:Name="Main" Effect="{StaticResource WindowShadow}" Margin="10" Background="Gray">
+        <Grid Background="{Binding ElementName=Main, Path=Background}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
                 <RowDefinition/>
@@ -18,15 +18,16 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <!--Row 0-->
-            <Border Grid.Row="0" x:Name="Header" Background="{Binding ElementName=Main, Path=Background}" MouseLeftButtonDown="Header_MouseLeftButtonDown">
+            <Border Grid.Column="0" Grid.Row="0" x:Name="Header" Background="{Binding ElementName=Main, Path=Background}" MouseLeftButtonDown="Header_MouseLeftButtonDown">
                 <Button x:Name="btnClose" Style="{StaticResource CloseButton}" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" Height="10" Width="20" Margin="5,0" Click="btnClose_Click"/>
             </Border>
             <!--Row 1-->
-            <DatePicker Grid.Column="0" Grid.Row="1" BorderBrush="Red" HorizontalAlignment="Left" Margin="23,24,0,0" VerticalAlignment="Top"/>
+            <DatePicker Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="Red" Width="120" Height="30" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" ScrollViewer.CanContentScroll="True"/>
             <!--Row 2-->
-            <Button Grid.Column="2" Grid.Row="2" VerticalAlignment="Bottom" Height="30" Width="60"  Content="Cancel" Name="btn2" Click="btn2_Click" Style="{StaticResource MainMenuButton}"/>
-            <Button Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" Height="30" Width="60"  Content="Save" Name="btn3" Click="btn3_Click" Style="{StaticResource MainMenuButton}"/>
-
+            <DockPanel LastChildFill="False" Margin="70,510,10,10" Grid.Column="2" Grid.Row="1" Width="220" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                <Button DockPanel.Dock="Right" VerticalAlignment="Bottom" Height="30" Width="100"  Content="Annuleren" Name="btn2" Click="btn2_Click" Style="{StaticResource MainMenuButton}"/>
+                <Button DockPanel.Dock="Left" VerticalAlignment="Bottom" Height="30" Width="100"  Content="Opslaan" Name="btn3" Click="btn3_Click" Style="{StaticResource MainMenuButton}"/>
+            </DockPanel>
         </Grid>
     </Border>
 </Window>
