@@ -77,24 +77,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Design.xaml.cs">
+    <Compile Include="TrialandError\Design.xaml.cs">
       <DependentUpon>Design.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DummyDataDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DummyDataDataSet.xsd</DependentUpon>
+    <Compile Include="TrialandError\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sander.xaml.cs">
+    <Compile Include="TrialandError\Sander.xaml.cs">
       <DependentUpon>Sander.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sjoerd.xaml.cs">
+    <Compile Include="TrialandError\Sjoerd.xaml.cs">
       <DependentUpon>Sjoerd.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ChosenDate.xaml.cs">
+    <Compile Include="TrialandError\ChosenDate.xaml.cs">
       <DependentUpon>ChosenDate.xaml</DependentUpon>
     </Compile>
-    <Page Include="Design.xaml">
+    <Page Include="TrialandError\Design.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,15 +108,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Sander.xaml">
+    <Page Include="TrialandError\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TrialandError\Sander.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Sjoerd.xaml">
+    <Page Include="TrialandError\Sjoerd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ChosenDate.xaml">
+    <Page Include="TrialandError\ChosenDate.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,17 +143,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="DummyDataDataSet.xsc">
-      <DependentUpon>DummyDataDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DummyDataDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DummyDataDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DummyDataDataSet.xss">
-      <DependentUpon>DummyDataDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -163,17 +154,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DummyData.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="DummyData_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>DummyData.mdf</DependentUpon>
-    </Content>
-    <Resource Include="Images\Item_ResonatorL1.gif" />
+    <Resource Include="TrialandError\Images\Item_ResonatorL1.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\running-puppet.jpg" />
+    <Resource Include="TrialandError\Images\running-puppet.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -194,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
