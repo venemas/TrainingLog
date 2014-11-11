@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace TrainingLog
 {
@@ -22,6 +12,10 @@ namespace TrainingLog
         public Sjoerd()
         {
             InitializeComponent();
+            for (int i = 2015; i > 1900; i--)
+            {
+                cbxYear.Items.Add(i.ToString());
+            }
         }
         private void Header_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
@@ -45,7 +39,15 @@ namespace TrainingLog
 
         private void btn3_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show(DtePicker.Text);
+            try
+            {
+                DateTime dte = new DateTime(2014, 1, 31);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ongeldige Datum");
+            }
         }
 
 
