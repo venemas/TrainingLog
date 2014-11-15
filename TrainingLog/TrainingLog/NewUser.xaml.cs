@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace TrainingLog
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for NewUser.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class NewUser : Window
     {
-        public Login()
+        public NewUser()
         {
             InitializeComponent();
         }
@@ -28,19 +28,13 @@ namespace TrainingLog
         {
             this.DragMove();
         }
-               
-        private void btn_OK_Click(object sender, RoutedEventArgs e)
+
+        private void btn_Save_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void btn_NewUser_Click(object sender, RoutedEventArgs e)
-        {
-            NewUser wnd = new NewUser();
-            wnd.Show();
-        }
-
-        private void btn_Exit_Click(object sender, RoutedEventArgs e)
+        private void btn_Cancel_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
