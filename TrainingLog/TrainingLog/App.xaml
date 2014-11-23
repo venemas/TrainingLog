@@ -4,23 +4,9 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <!--Color Palettes-->
-        <SolidColorBrush x:Key="FlatLightBlue" Color="#FF2C82C9" />
-        <SolidColorBrush x:Key="FlatLightGreen" Color="#FF2CC990" />
-        <SolidColorBrush x:Key="FlatYellow" Color="#FFEEE657" />
-        <SolidColorBrush x:Key="FlatLightOrange" Color="#FFFCB941" />
-        <SolidColorBrush x:Key="FlatLightRed" Color="#FFFC6042" />
-        <SolidColorBrush x:Key="FlatRed" Color="#FFE84B3C" />
-        <SolidColorBrush x:Key="FlatOrange" Color="#FFF39C15" />
-        <SolidColorBrush x:Key="FlatGreen" Color="#FF34B297" />
-        <SolidColorBrush x:Key="FlatBlue" Color="#FF2980BA" />
-        <SolidColorBrush x:Key="FlatDarkBlue" Color="#FF34495D" />
-        <SolidColorBrush x:Key="FlatNavy" Color="#FF001B2E" />
-        <!--Neon Colors-->
-        <SolidColorBrush x:Key="NeonGreen" Color="#FFAAFF00" />
-        <SolidColorBrush x:Key="NeonOrange" Color="#FFFFAA00" />
-        <SolidColorBrush x:Key="NeonPink" Color="#FFFF00AA" />
-        <SolidColorBrush x:Key="NeonPurple" Color="#FFAA00FF" />
-        <SolidColorBrush x:Key="NeonBlue" Color="#FF00AAFF" />
+        <SolidColorBrush x:Key="MidnightBlue" Color="#FF2D3E50"/>
+        <SolidColorBrush x:Key="Clouds" Color="#FFECF0F1"/>
+        <SolidColorBrush x:Key="Pomegranate" Color="#FFBF3A2B"/>
         
         <!--Holo Theme-->
         <SolidColorBrush x:Key="Cyan" Color="#FF00EFFF"/>
@@ -69,5 +55,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        
+        <!--Default styles-->
     </Application.Resources>
 </Application>
