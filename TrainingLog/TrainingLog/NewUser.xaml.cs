@@ -34,6 +34,10 @@ namespace TrainingLog
             try
             {
                 DateTime dte = new DateTime(Convert.ToInt32(birthdayYear.Text), Convert.ToInt32(birthdayMonth.Text), Convert.ToInt32(birthdayDay.Text));
+                if (dte > DateTime.Now)
+                {
+                    MessageBox.Show("Invalid date of birth");
+                }
             }
             catch (Exception ex)
             {

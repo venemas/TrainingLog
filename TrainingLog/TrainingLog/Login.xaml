@@ -21,7 +21,7 @@
         </Border>
         <!--Row 1, Column 0-->
             <ListBox x:Name="lbUsers" Grid.Row="1" Grid.Column="0" Background="{x:Null}" BorderBrush="{StaticResource FlatLightRed}" BorderThickness="2" Width="150" Height="200" Margin="3">
-                
+
             </ListBox>
         
         <!--Row 1, Column 1-->
