@@ -39,7 +39,7 @@ namespace TrainingLog
                     MessageBox.Show("Invalid date of birth");
                 }
             }
-            catch (Exception ex)
+            catch 
             {
                 MessageBox.Show("Invalid date of birth");
             }
