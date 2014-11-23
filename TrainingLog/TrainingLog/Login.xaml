@@ -23,19 +23,13 @@
             <ListBox x:Name="lbUsers" Grid.Row="1" Grid.Column="0" Background="{x:Null}" BorderBrush="{StaticResource Clouds}" BorderThickness="2" Width="150" Height="200" Margin="3">
                 <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sander</ListBoxItem>
                 <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sjoerd</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sander</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sjoerd</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sander</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sjoerd</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sander</ListBoxItem>
-                <ListBoxItem Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="5" Height="28" FontSize="14">Sjoerd</ListBoxItem>
             </ListBox>
         
         <!--Row 1, Column 1-->
             <DockPanel Grid.Row="1" Grid.Column="1" Width="90" Height="200">
                 <Button x:Name="btn_OK" DockPanel.Dock="Top" Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" Content="OK" FontWeight="Bold" Click="btn_OK_Click" Width="80" Height="25" Margin="5"/>
-                <Button x:Name="btn_NewUser" DockPanel.Dock="Top" Background="{StaticResource MidnightBlue}" Foreground="{StaticResource Clouds}" Content="New" FontWeight="Bold" Click="btn_NewUser_Click" Width="80" Height="25" Margin="5"/>
-                <Button x:Name="btn_Exit" Background="{StaticResource MidnightBlue}" Foreground="{StaticResource Clouds}" Content="Exit" Click="btn_Exit_Click" FontWeight="Bold" Width="80" Height="25" Margin="5" VerticalAlignment="Bottom"/>
+                <Button x:Name="btn_NewUser" DockPanel.Dock="Top" Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" Content="New" FontWeight="Bold" Click="btn_NewUser_Click" Width="80" Height="25" Margin="5"/>
+                <Button x:Name="btn_Exit" Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}" Content="Exit" Click="btn_Exit_Click" FontWeight="Bold" Width="80" Height="25" Margin="5" VerticalAlignment="Bottom"/>
             </DockPanel>
         
         </Grid>

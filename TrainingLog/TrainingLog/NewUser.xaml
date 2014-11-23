@@ -42,8 +42,8 @@
             
             <!--Row 4-->
             <DockPanel Grid.Row="4" Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="180" Height="40" Margin="3" Background="{x:Null}">
-                <Button x:Name="btn_Save" Content="Save" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Left" Click="btn_Save_Click" Background="{StaticResource Pomegranate}" Foreground="{StaticResource Clouds}"/>
-                <Button x:Name="btn_Cancel" Content="Cancel" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Right" Click="btn_Cancel_Click" Background="{StaticResource Pomegranate}" Foreground="{StaticResource Clouds}"/>
+                <Button x:Name="btn_Save" Content="Save" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Left" Click="btn_Save_Click" Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}"/>
+                <Button x:Name="btn_Cancel" Content="Cancel" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Right" Click="btn_Cancel_Click" Background="{StaticResource Clouds}" Foreground="{StaticResource MidnightBlue}"/>
             </DockPanel>
         </Grid>
     </Border>
