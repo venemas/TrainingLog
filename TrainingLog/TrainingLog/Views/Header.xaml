@@ -6,6 +6,11 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="30" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type Button}">
+            
+        </Style>
+    </UserControl.Resources>
     <Border x:Name="Main">
         <Grid>
             <Button Content="Close" Visibility="{Binding ElementName=Me, Path=CloseButton}"/>
