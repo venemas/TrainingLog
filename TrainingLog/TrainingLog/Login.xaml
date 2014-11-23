@@ -26,9 +26,9 @@
         
         <!--Row 1, Column 1-->
             <DockPanel Grid.Row="1" Grid.Column="1" Width="90" Height="200">
-                <Button x:Name="btn_OK" DockPanel.Dock="Top" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="OK" Click="btn_OK_Click" Width="80" Height="25" Margin="5"/>
-                <Button x:Name="btn_NewUser" DockPanel.Dock="Top" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="New" Click="btn_NewUser_Click" Width="80" Height="25" Margin="5"/>
-                <Button x:Name="btn_Exit" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="Exit" Click="btn_Exit_Click" Width="80" Height="25" Margin="5" VerticalAlignment="Bottom"/>
+                <Button x:Name="btn_OK" DockPanel.Dock="Top" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="OK" FontWeight="Bold" Click="btn_OK_Click" Width="80" Height="25" Margin="5"/>
+                <Button x:Name="btn_NewUser" DockPanel.Dock="Top" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="New" FontWeight="Bold" Click="btn_NewUser_Click" Width="80" Height="25" Margin="5"/>
+                <Button x:Name="btn_Exit" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" Content="Exit" Click="btn_Exit_Click" FontWeight="Bold" Width="80" Height="25" Margin="5" VerticalAlignment="Bottom"/>
             </DockPanel>
         
         </Grid>

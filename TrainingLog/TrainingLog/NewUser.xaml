@@ -39,10 +39,11 @@
             <!--Row 3-->
             <TextBlock x:Name="Length" Grid.Row="3" Grid.Column="0" Text="Length:" Background="{x:Null}" Foreground="{StaticResource FlatLightRed}" FontWeight="Bold" Height="20" Width="55" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Center" Margin="10" FontSize="14"/>
             <TextBox x:Name="lenghthBox" Grid.Row="3" Grid.Column="1" Height="25" Width="40"  TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}" FontSize="12" FontStyle="Italic" Text="in cm" Cursor="IBeam" MaxLength="3" BorderBrush="{Binding ElementName=lenghthBox, Path=Background}" GotMouseCapture="lenghthBox_GotMouseCapture" GotFocus="lenghthBox_GotFocus"/>
+            
             <!--Row 4-->
             <DockPanel Grid.Row="4" Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="180" Height="40" Margin="3" Background="{x:Null}">
-                <Button x:Name="btn_Save" Content="Save" Width="80" Height="25" Margin="5" HorizontalAlignment="Left" Click="btn_Save_Click" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}"/>
-                <Button x:Name="btn_Cancel" Content="Cancel" Width="80" Height="25" Margin="5" HorizontalAlignment="Right" Click="btn_Cancel_Click" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}"/>
+                <Button x:Name="btn_Save" Content="Save" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Left" Click="btn_Save_Click" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}"/>
+                <Button x:Name="btn_Cancel" Content="Cancel" FontWeight="Bold" Width="80" Height="25" Margin="5" HorizontalAlignment="Right" Click="btn_Cancel_Click" Background="{StaticResource FlatLightRed}" Foreground="{StaticResource FlatBlue}"/>
             </DockPanel>
         </Grid>
     </Border>
